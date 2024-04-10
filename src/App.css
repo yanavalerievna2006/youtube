@@ -1,0 +1,73 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+}
+
+.App-header {
+  font-size: 30px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.App-nav {
+  height: 100%;
+  max-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+
+}
+.App-nav-menu {
+  min-width: 170px;
+  height: 38px;
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 20px ;
+  border-radius: 10px;
+}
+.App-nav-menu:hover {
+  background-color: #dadada;
+}
+
+.App-main {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  
+}
+
+.App-main-videoCont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 330px;
+  height: 330px;
+}
+
+.App-main-videoCont-video {
+  width: 330px;
+  height: 200px;
+}
+
+.App-main-videoCont-title {
+  width: 330px;
+  height: 130px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: left;
+}
+
+.video-img {
+  width: 330px;
+  height: 200px;
+  border-radius: 12px;
+}
